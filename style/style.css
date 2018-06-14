@@ -1,0 +1,554 @@
+/*
+-------------------------------------------------------------------
+PÀGINA EN GENERAL
+-------------------------------------------------------------------
+*/
+
+body{
+    background-color: #382033;
+}
+
+#tot{
+    width:1700px;
+    margin:0 auto;
+    box-shadow: 0px 0px 90px black;
+    
+}
+
+
+/*
+-------------------------------------------------------------------
+PORTADA
+-------------------------------------------------------------------
+*/
+
+#imatge-portada{
+    margin-top: -10px;
+    
+    animation-name: anim-portada;
+    animation-duration: 2s;
+}
+
+@keyframes anim-portada {
+    0%   {margin-top: -40px;}
+    100% {margin-top: -10px;}
+}
+
+#nom-portada{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    color: #ffcbb9;
+    font-weight: 300;
+    
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 80px;
+    text-align: center;
+    
+    animation-name: anim-nom;
+    animation-duration: 3s;
+}
+
+@keyframes anim-nom {
+    0%   {top:70px; opacity: 0;}
+    100% {top:80px; opacity: 1;}
+}
+
+#linea-portada{
+    position: relative;
+    top: 230px;
+    margin:0 auto;
+    
+    height: 2px;
+    width: 500px;
+    background-color: #ffcbb9;
+    
+    animation-name: anim-linea;
+    animation-duration: 4s;
+}
+
+@keyframes anim-linea {
+    0%   {width: 0px; opacity: 0;}
+    100% {width: 500px; opacity: 1;}
+}
+
+#titol-portada{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 65px;
+    color: #ffcbb9;
+    font-weight: 100;
+    
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 190px;
+    text-align: center;
+    
+    animation-name: anim-titol;
+    animation-duration: 3s;
+}
+
+@keyframes anim-titol {
+    0%   {top:200px; opacity: 0;}
+    100% {top:190px; opacity: 1;}
+}
+
+
+/*
+-------------------------------------------------------------------
+SECCIÓ QUI SÓC
+-------------------------------------------------------------------
+*/
+
+#seccio-quisoc{
+    width: 1700px;
+    height: 300px;
+    background-color: #e99f64;
+    
+    
+}
+
+#titol-quisoc{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #391f34;
+
+    margin-top: -220px;  
+    margin-left: 430px;
+}
+
+#text1_quisoc{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #391f34;
+
+    
+    width: 400px;
+    height: 300px;
+    
+    margin-top: -30px;
+    margin-left: 430px;
+    
+    z-index: 100;
+}
+
+#text2_quisoc{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #391f34;
+
+    
+    width: 400px;
+    height: 223px;
+    
+    position: relative;
+    margin-top: -220px;
+    margin-left: 880px;
+}
+
+
+/*
+-------------------------------------------------------------------
+SECCIÓ TEXTURES
+-------------------------------------------------------------------
+*/
+
+#fons{
+    height: 100px;
+    background-color: #391f34;
+}
+
+
+
+#seccio-textures{
+    width: 1700px;
+    height: 900px;
+    background-color: #391f34;
+    
+    margin-top: -5px;
+}
+
+#titol-textures{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #efba8f;
+
+    margin-top: -150px;  
+    margin-left: 175px;
+}
+
+#text-textures{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #efba8f;
+
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: -20px;
+
+
+    
+    z-index: 100;
+}
+
+#contenidor-textures{
+    width: 1450px;
+    margin:0 auto;
+    
+    margin-top: 60px;
+    
+}
+
+
+
+#imatges-textures1{
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+
+#imatges-textures2{
+    margin-left: 50px;
+    margin-top: px;
+    
+    border-radius: 15px;
+}
+
+#imatges-textures3{
+    margin-left: 50px;
+    margin-top: px;
+    
+    border-radius: 15px;
+}
+
+#imatges-textures4{
+    margin-left: 50px;
+    margin-top: px;
+    
+    border-radius: 15px;
+}
+
+
+#imatges-textures5{
+    margin-left: 50px;
+    margin-top: 60px;
+    
+    border-radius: 15px;
+}
+
+
+#imatges-textures6{
+    margin-left: 50px;
+    margin-top: 60px;
+    
+    border-radius: 15px;
+}
+
+#imatges-textures7{
+    margin-left: 50px;
+    margin-top: 60px;
+    
+    border-radius: 15px;
+}
+
+#imatges-textures8{
+    margin-left: 50px;
+    margin-top: 60px;
+    
+    border-radius: 15px;
+}
+
+/*
+-------------------------------------------------------------------
+SECCIÓ ILUMINACIÓ
+-------------------------------------------------------------------
+*/
+
+
+#seccio-iluminacio{
+    width: 1700px;
+    height: 1400px;
+    background-color: #e99f64;
+}
+
+#titol-iluminacio{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #382033;
+
+    margin-top: -150px;  
+    margin-left: 175px;
+}
+
+#text-iluminacio{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #382033;
+
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: -20px;
+
+
+    
+    z-index: 100;
+}
+
+#contenidor-iluminacio{
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 50px;
+}
+
+#imatges-iluminacio1{
+    border: solid #382033;
+    border-radius: 5px;
+}
+
+#explicacio-iluminacio1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #382033;
+
+    margin-left: 700px;
+    margin-right: 100px;
+    margin-top: -235px;
+}
+
+#imatges-iluminacio2{
+    border: solid #382033;
+    border-radius: 5px;
+    
+    margin-top: 190px;
+    margin-left: 700px;
+}
+
+#explicacio-iluminacio2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #382033;
+
+    margin-left: 100px;
+    margin-right: 700px;
+    margin-top: -235px;
+    
+    text-align: right;
+}
+
+#imatges-iluminacio3{
+    border: solid #382033;
+    border-radius: 5px;
+    
+    margin-top: 205px;
+}
+
+#explicacio-iluminacio3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #382033;
+
+    margin-left: 700px;
+    margin-right: 100px;
+    margin-top: -235px;
+}
+
+/*
+-------------------------------------------------------------------
+SECCIÓ ELEMENTS INTERACTIUS
+-------------------------------------------------------------------
+*/
+
+#titol-elementsInteractius{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #efba8f;
+
+
+    margin-top: -150px;  
+    margin-left: 175px;
+}
+
+#text-elementsInteractius{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #efba8f;
+
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: -20px;
+}
+
+#color-elementsInteractius{
+    margin-top: -5px;
+    width: 1700px;
+    height: 1120px;
+    background-color: #2e2e2e;
+}
+
+#imatge-elementsInteractius{
+    margin-left: 175px;
+    margin-top: 20px;
+}
+
+/*
+-------------------------------------------------------------------
+SECCIÓ VIDEOJOCS
+-------------------------------------------------------------------
+*/
+
+
+#seccio-videojocs{
+    background-color: #e99f64;
+    height: 1250px;
+}
+
+#titol-videojocs{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #382033;
+
+
+    margin-top: -150px;  
+    margin-left: 175px;
+}
+
+#text-videojocs{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #382033;
+
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: -20px;
+}
+
+#pong-videojocs{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+#separador-pong{
+    margin-left: -548px;
+}
+
+#space-videojocs{
+    margin-left: 355px;
+    margin-top: 80px;
+}
+
+#separador-space{
+    position: absolute;
+    margin-left: -838px;
+    margin-top: 434px;
+}
+
+
+
+
+
+
+#seccio-modelatge{
+    background-color: #382033;
+    height: 2400px;
+    
+}
+
+#titol-modelatge{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #efba8f;
+
+
+    margin-top: -150px;  
+    margin-left: 175px;
+}
+
+#text-modelatge{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #efba8f;
+
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: -20px;
+}
+
+#imatge-modelatge1{
+    margin-left: 175px;
+    margin-top: 50px;
+}
+
+#imatge-modelatge2{
+    margin-left: 675px;
+}
+
+#imatge-modelatge3{
+    margin-left: 175px;
+    margin-top: -40px;
+}
+
+#imatge-modelatge4{
+    margin-left: 675px;
+    margin-top: -60px;
+}
+
+
+
+
+#peu-de-pagina{
+    background-color: #e99f64;
+    height: 150px;
+    
+    margin-top: -15px;
+}
+
+#info-peudepagina{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: #382033;
+    text-align: center;
+    
+    margin-top: 10px;
+}
+
+#info-peudepagina2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.15;
+    color: #382033;
+    text-align: center;
+}
